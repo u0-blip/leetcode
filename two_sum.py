@@ -6,7 +6,8 @@ import numpy as np
 
 args = np.argsort(nums)
 nums = np.sort(nums)
-#brute force
+#search solution
+
 for i in range(len(nums)):
     value_to_look = target - nums[i]
     a = np.searchsorted(nums[i+1:], value_to_look)
