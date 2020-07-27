@@ -20,3 +20,4 @@ class Solution:
             if tail.next:
                 heappush(record, tail.next)
         return head.next
+
